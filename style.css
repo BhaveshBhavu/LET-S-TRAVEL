@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@200&family=Roboto:ital@1&display=swap');
+
+
+body {
+  font-size: 15pt;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: white;
+
+}
+
+nav log {
+  font-weight: 520;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav log img {
+  width: 56px;
+}
+
+.menu i {
+  display: none;
+}
+
+nav ul {
+  font-weight: 400;
+  display: flex;
+  list-style-type: none;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul li {
+  margin: 0px 6px;
+  padding: 3px 8px;
+}
+
+nav ul li:hover {
+  background-color: rehd;
+  color: orange;
+  font-weight: 500;
+
+}
+
+nav ul li:first-child {
+  color: orange;
+  font-weight: 500;
+}
+
+
+
+.men_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIr6lLyS9dnvW12Y4CCGyx6Q8yye82oOLLHg&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.men_text_box {
+  text-align: center;
+  color: white;
+  width: 700px;
+  font-family: sans-serif;
+}
+
+.men_text_box h1 {
+  font-family: 'Roboto Condensed', cursive ;
+  letter-spacing: 4px;
+  margin: 3px 0px;
+}
+
+.men_text_box p {
+  font-size: 13px;
+  margin: 5px 0px;
+  font-family: 'Roboto Condensed', cursive ;
+
+}
+
+.men_text_box center {
+  display: flex;
+  justify-content: center;
+}
+
+.men_text_box  div {
+  margin-top: 16px;
+ 
+  
+}
+
+.men_text_box a {
+  border: solid;
+  margin: 20px 7px;
+  font-size: 11px;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-family: 'Roboto Condensed', cursive ;
+
+}
+.men_text_box a i{
+  margin-right: 5px;
+ 
+}
+
+#ab {
+  background-color: white;
+  color: orange;
+  border: solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_car_box_men {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 11px;
+ /* width: 300px;*/
+  
+  
+}
+
+.menu_car_box_men  h1{
+  margin: 10px;
+}
+
+
+.menu_car_box_men p{
+  margin: 2px;
+}
+
+.menu_car_box_men button{
+  margin-top: 14px; 
+  border-radius: 5px;
+  padding: 7px 10px;
+  border: 1px solid;
+  color: white;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+
+
+.b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_1 {
+  width: 50%;
+  height: 300px;
+ background-image: url("https://www.wallpaperbetter.com/wallpaper/97/250/564/sailing-to-paradise-1080P-wallpaper.jpg");
+ background-size: cover ;
+ 
+}
+
+.box_2{
+  width: 50%;
+  height: 300px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2w3KX6Cw2F957GnmOmRJlsroNG2h9JIfEw&usqp=CAU");
+  background-size: cover;
+}
+
+
+.box_3{
+  width: 33%;
+  height: 300px;
+  background-image: url("https://w0.peakpx.com/wallpaper/241/176/HD-wallpaper-dubai-hotel.jpg");
+  background-size: cover;
+}
+
+
+.box_4{
+  width: 34%;
+  height: 300px;
+  background-image: url("https://cdn0.weddingwire.in/vendor/2235/3_2/960/jpg/best-tours-phuket-l_15_162235.jpeg");
+  background-size: cover;
+}
+
+.box_5{
+  width: 33%;
+  height: 300px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8A45OhD4GrE55CmtHYMyqzOvZkk-fRhafcw&usqp=CAU");
+  background-size: cover;
+}
+
+.b h2{
+  letter-spacing: 2px;
+}
+
+.b hr{
+  width: 80px;
+  background-color: white;
+  border: 1px solid ;
+  
+}
+
+.b t {
+  
+  position: relative;
+  top: 5px;
+}
+
+.b p{
+  margin: 8px;
+}
+
+
+/*
+.menu_car_box_men .box_1 , .box_2 {
+  width: 50%;
+  border: solid red;
+  background: tan;
+  
+}
+
+
+*/
+
+
+
+
+
+@media (max-width:500px) {
+
+  log {
+    position: relative;
+    left: -17px;
+  }
+  
+.men_box{
+  
+  background-size: 200vw 100vh;
+}
+
+  .menu i {
+    display: block;
+    font-size: 28px;
+  }
+  
+nav ul li:first-child {
+  color: black;
+  font-weight: 500;
+}
+
+
+.menu ul li{
+  
+  font-size: 20px;
+  transition: 0.2s;
+  margin: 10px 0px;
+  padding: 10px 32vw ;
+  
+}
+
+.menu ul li:hover{
+  background: orange;
+  color: white;
+  border-radius: 2px;
+}
+  
+  .menu ul {
+    display: none;
+   margin: 1px;
+   padding: 2px;
+ 
+/*display: block;
+display: inline-block;*/
+  }
+ 
+ .menu:hover ul  {
+   display: block;
+  /* background: rgba(255,255,255, 0.7); /* Green background with 30% opacity*/ 
+   background: rgba(255,255,255,0.5);
+ /*  filter: blur(1px);*/
+   backdrop-filter: blur(3px);
+   font-weight: 500;
+   border-radius: 3px;
+   box-shadow: 0px 0px 2px 0px black;
+   position: fixed;
+   top: 120px;
+   left: 7vw;
+   border-radius: 10px;
+   text-align: center;
+   
+ }
+
+
+
+  .men_text_box {
+    width: 95vw;
+    border: solgid;
+  }
+
+  .men_text_box h1 {
+    font-size: 35px;
+  }
+
+
+  .men_text_box p {
+    font-size: 11px;
+  }
+ 
+
+
+
+  .men_text_box div {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+  }
+
+  .men_text_box div a i{
+    margin-right: 7px ;
+  }
+
+}
+ 
+ 
+ 
+ 
